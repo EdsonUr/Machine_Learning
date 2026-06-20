@@ -380,8 +380,7 @@ The predicted class is:
 ```math
 \hat{y}_{\text{leaf}}
 =
-\operatorname*{arg\,max}_{k}
-N_k
+\underset{k}{\mathrm{arg\,max}}\;N_k
 ```
 
 This means that the leaf returns the class with the largest number of examples.
